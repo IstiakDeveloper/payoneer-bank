@@ -1,0 +1,41 @@
+body{
+    padding: 100px;
+}
+.btn-success{
+    padding: 5px 15px !important;
+}
+.submit-area{
+     margin-top: 50px;
+     box-shadow: 5px 5px 10px gray;
+     padding: 50px;
+    border-radius: 10px;
+}
+
+#transection-area{
+    display: none;
+}
+
+.status{
+    color: white;
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.deposit{
+    background-color: blueviolet;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: darkorange;
+}
+
+
+#work-area {
+    margin-top: 50px;;
+}
+.dp-wt{
+    box-shadow: 5px 5px 10px gray;
+    padding: 50px;
+}
