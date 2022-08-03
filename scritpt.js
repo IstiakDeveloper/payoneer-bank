@@ -29,6 +29,10 @@ depostitBtn.addEventListener("click", function(){
 const withdrawBtn = document.getElementById("addWithdraw");
 withdrawBtn.addEventListener("click", function(){
     const withdrawNumber = getInputNumber("withdrawAmount");
+
+    updateSpanText("currentWithdraw", withdrawNumber)
+    updateSpanText("currentBalance", -1 * withdrawNumber);
+
 });
 
 function getInputNumber(id){
@@ -37,6 +41,11 @@ function getInputNumber(id){
     return number;
 }
 
+
+
+
+
+//Function for update span text
 function updateSpanText(id, depositNumber){
     const current = document.getElementById(id).innerText;
     const currentNumber = parseFloat(current);
